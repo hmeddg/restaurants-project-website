@@ -1,0 +1,25 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Rings">
+<circle id="Ring / Inner" cx="320" cy="320" r="239.5" stroke="#D2B16D" stroke-opacity="0.34"/>
+<mask id="stroke0_0_130" fill="white">
+<path d="M600.889 392.12C584.884 454.457 548.597 509.699 497.743 549.145C446.889 588.591 384.359 610 320 610C255.641 610 193.111 588.591 142.257 549.145C91.4034 509.699 55.1163 454.457 39.1109 392.12L320 320L600.889 392.12Z"/>
+</mask>
+<path id="Ring / Arc" d="M600.889 392.12C584.884 454.457 548.597 509.699 497.743 549.145C446.889 588.591 384.359 610 320 610C255.641 610 193.111 588.591 142.257 549.145C91.4034 509.699 55.1163 454.457 39.1109 392.12L320 320L600.889 392.12Z" stroke-width="2" stroke="#D2B16D" stroke-opacity="0.5" mask="url(#stroke0_0_130)"/>
+<g id="Orbit">
+<g id="Orbit / Dot" filter="url(#filter0_d_0_130)">
+<circle cx="320" cy="80" r="4.5" fill="#F0DFB4"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_130" x="305.5" y="65.5" width="29" height="29" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.82 0 0 0 0 0.69 0 0 0 0 0.43 0 0 0 0.9 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_130"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_130" result="shape"/>
+</filter>
+</defs>
+</svg>

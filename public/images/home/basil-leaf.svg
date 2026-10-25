@@ -1,0 +1,25 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="73.632" height="121.177" viewBox="0 0 73.632 121.177" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon / Basil leaf">
+<g id="Leaf" filter="url(#filter0_d_0_52)">
+<path d="M36.816 4.61825C58.816 20.6182 69.816 52.6182 58.816 78.6182C51.816 93.6182 42.816 101.618 36.816 104.618C30.816 101.618 21.816 93.6182 14.816 78.6182C3.81598 52.6182 14.816 20.6182 36.816 4.61825Z" fill="url(#paint0_linear_0_52)" stroke="black"/>
+</g>
+<path id="Veins" d="M40.5006 10.6182C40.7456 18.9475 40.9306 27.0367 41.0555 34.9006M41.0555 34.9006C41.1758 42.4721 41.2405 49.8348 41.2495 57.0016M41.0555 34.9006C40.8716 34.8054 40.6867 34.7113 40.5006 34.6182C32.5006 38.6182 26.5006 44.6182 22.5006 52.6182M41.0555 34.9006C48.7786 38.8984 54.5936 44.8043 58.5006 52.6182M41.2495 57.0016C41.2582 63.8857 41.2156 70.5892 41.1216 77.1236M41.2495 57.0016C41.0019 56.8718 40.7523 56.7441 40.5006 56.6182C32.5006 60.6182 26.5006 66.6182 23.5006 74.6182M41.2495 57.0016C48.8751 60.9977 54.595 66.8699 57.5006 74.6182M41.1216 77.1236C41.0002 85.562 40.7932 93.7185 40.5006 101.618M41.1216 77.1236C40.9181 76.955 40.7111 76.7866 40.5006 76.6182C35.5006 80.6182 32.5006 84.6182 30.5006 90.6182M41.1216 77.1236C45.7515 80.9586 48.5848 84.8708 50.5006 90.6182" stroke-width="1.2" stroke-linecap="round" stroke="#D9EBB8" stroke-opacity="0.55"/>
+<path id="Stem" d="M40.5006 102.618V112.618" stroke-width="2.5" stroke-linecap="round" stroke="#456B33"/>
+</g>
+<defs>
+<filter id="filter0_d_0_52" x="-3.57628e-07" y="-1.78814e-07" width="73.632" height="121.177" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.2 0 0 0 0 0.25 0 0 0 0 0.1 0 0 0 0.18 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_52"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_52" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_0_52" x1="17.8689" y1="6.61825" x2="76.6436" y2="47.8629" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8CB55C"/>
+<stop offset="1" stop-color="#456B33"/>
+</linearGradient>
+</defs>
+</svg>

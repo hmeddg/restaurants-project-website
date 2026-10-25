@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1000" height="1000" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle id="Glow / Emerald" cx="500" cy="500" r="500" fill="url(#paint0_radial_0_11)"/>
+<defs>
+<radialGradient id="paint0_radial_0_11" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(500 500) scale(500)">
+<stop stop-color="#17392C" stop-opacity="0.95"/>
+<stop offset="0.6" stop-color="#10261E" stop-opacity="0.4"/>
+<stop offset="1" stop-color="#0A1511" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

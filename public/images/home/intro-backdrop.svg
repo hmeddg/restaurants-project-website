@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="600" viewBox="0 0 1440 600" fill="none"><svg x="760.000" y="-90.000" width="760.0" height="760.0" viewBox="0 0 760 760" overflow="visible"><circle id="l0_Glow___Gold" cx="380" cy="380" r="380" fill="url(#l0_paint0_radial_0_6)"/>
+<defs>
+<radialGradient id="l0_paint0_radial_0_6" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(380 380) scale(380)">
+<stop stop-color="#E3C486" stop-opacity="0.62"/>
+<stop offset="0.5" stop-color="#D2B16D" stop-opacity="0.16"/>
+<stop offset="1" stop-color="#D2B16D" stop-opacity="0"/>
+</radialGradient>
+</defs></svg><svg x="-300.000" y="250.000" width="1100.0" height="700.0" viewBox="0 0 1100 700" overflow="visible"><ellipse id="l1_Glow___Emerald" cx="550" cy="350" rx="550" ry="350" fill="url(#l1_paint0_radial_0_5)"/>
+<defs>
+<radialGradient id="l1_paint0_radial_0_5" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(550 350) scale(550 350)">
+<stop stop-color="#17392C" stop-opacity="0.8"/>
+<stop offset="1" stop-color="#17392C" stop-opacity="0"/>
+</radialGradient>
+</defs></svg></svg>
