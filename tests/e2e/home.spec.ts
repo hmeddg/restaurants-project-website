@@ -44,13 +44,15 @@ test.describe("home page", () => {
 });
 
 test.describe("header", () => {
-  test("desktop nav never overlaps the account links", async ({ page }) => {
+  test("desktop nav never overlaps the reserve button", async ({ page }) => {
     for (const width of [1024, 1280, 1440]) {
       await page.setViewportSize({ width, height: 900 });
       await page.goto("/");
 
       const nav = page.getByRole("navigation", { name: "Main" });
-      const login = page.getByRole("link", { name: "Log in", exact: true });
+      const reserve = page
+        .getByRole("banner")
+        .getByRole("link", { name: "Reserve a table" });
       if (!(await nav.isVisible())) {
         await expect(
           page.getByRole("button", { name: "Open menu" }),
@@ -59,11 +61,11 @@ test.describe("header", () => {
       }
 
       const navBox = await nav.boundingBox();
-      const loginBox = await login.boundingBox();
-      expect(navBox && loginBox, `boxes at ${width}px`).toBeTruthy();
-      if (navBox && loginBox) {
+      const reserveBox = await reserve.boundingBox();
+      expect(navBox && reserveBox, `boxes at ${width}px`).toBeTruthy();
+      if (navBox && reserveBox) {
         expect(navBox.x + navBox.width, `overlap at ${width}px`).toBeLessThan(
-          loginBox.x,
+          reserveBox.x,
         );
       }
     }

@@ -8,6 +8,11 @@
     "start": "next start",
     "lint": "eslint",
     "format": "prettier --write .",
+    "test": "vitest run",
+    "dev:api": "cd backend && .venv/bin/uvicorn app.main:create_app --factory --reload --host 127.0.0.1 --port 8000",
+    "dev:api:memory": "cd backend && .venv/bin/python -m tests.serve_in_memory --port 8000",
+    "lint:api": "cd backend && .venv/bin/ruff check .",
+    "test:api": "cd backend && .venv/bin/python -m pytest -q",
     "test:e2e": "playwright test"
   },
   "dependencies": {
@@ -15,7 +20,9 @@
     "next": "16.4.3",
     "react": "19.3.0",
     "react-dom": "19.3.0",
-    "tailwind-merge": "^3.7.0"
+    "server-only": "^0.0.1",
+    "tailwind-merge": "^3.7.0",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@playwright/test": "^1.64.1",
@@ -28,6 +35,7 @@
     "prettier": "^3.9.10",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^4.1.12"
   }
 }

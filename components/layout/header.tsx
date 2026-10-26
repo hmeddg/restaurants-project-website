@@ -1,5 +1,7 @@
 import Link from "next/link";
+import { Suspense } from "react";
 import { MobileMenu } from "@/components/layout/mobile-menu.client";
+import { NavLink } from "@/components/layout/nav-link.client";
 import { ButtonLink } from "@/components/ui/button-link";
 import { TextLink } from "@/components/ui/text-link";
 import { siteConfig } from "@/config/site";
@@ -26,25 +28,19 @@ export function Header() {
             <ul className="flex gap-7">
               {siteConfig.nav.map((item) => (
                 <li key={item.href} className="w-22">
-                  <TextLink href={item.href}>{item.label}</TextLink>
+                  <Suspense
+                    fallback={
+                      <TextLink href={item.href}>{item.label}</TextLink>
+                    }
+                  >
+                    <NavLink href={item.href}>{item.label}</NavLink>
+                  </Suspense>
                 </li>
               ))}
             </ul>
           </nav>
 
           <div className="flex items-center gap-2">
-            <Link
-              href={siteConfig.links.login}
-              className={`hidden min-h-11 items-center rounded-full px-3 text-[13px] font-medium text-ivory xl:inline-flex ${focusRing}`}
-            >
-              Log in
-            </Link>
-            <Link
-              href={siteConfig.links.register}
-              className={`hidden min-h-11 items-center rounded-full px-5 text-[13px] font-medium text-gold xl:inline-flex ${focusRing}`}
-            >
-              Sign up
-            </Link>
             <ButtonLink
               href={siteConfig.links.reserve}
               className="hidden sm:inline-flex"

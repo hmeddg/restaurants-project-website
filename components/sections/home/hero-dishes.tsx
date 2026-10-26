@@ -178,19 +178,6 @@ export function HeroDishes({ className }: HeroDishesProps) {
           )}
         />
       ))}
-
-      <div
-        aria-hidden="true"
-        className="absolute top-[75.806%] left-[39.788%] aspect-42/77 w-[2.917%] rotate-[-88.73deg]"
-      >
-        <Image
-          src="/images/home/basil-leaf.svg"
-          alt=""
-          width={73.632}
-          height={121.177}
-          className="absolute top-[-4.2%] left-[-17.5%] h-[110.16%] w-[122.72%] max-w-none"
-        />
-      </div>
     </div>
   );
 }

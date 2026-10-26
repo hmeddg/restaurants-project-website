@@ -10,11 +10,7 @@ import { siteConfig } from "@/config/site";
 const focusRing =
   "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold";
 
-const menuLinks = [
-  ...siteConfig.nav,
-  { label: "Log in", href: siteConfig.links.login },
-  { label: "Sign up", href: siteConfig.links.register },
-];
+const menuLinks = siteConfig.nav;
 
 export function MobileMenu() {
   const [open, setOpen] = useState(false);
